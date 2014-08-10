@@ -2,5 +2,5 @@
 
 class XsdType extends XsdBaseElement
 {
-	
+    
 }
