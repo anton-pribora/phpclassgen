@@ -2,8 +2,8 @@
 
 class SoapAddress extends WsdlParserXmlElement
 {
-	public function getLocation()
-	{
-		return $this->getXmlAttribute('location');
-	}
+    public function getLocation()
+    {
+        return $this->getXmlAttribute('location');
+    }
 }

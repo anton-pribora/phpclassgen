@@ -2,6 +2,6 @@
 
 class CbXsdProperty
 {
-	public $name;
-	public $isArray;
+    public $name;
+    public $isArray;
 }
