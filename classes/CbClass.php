@@ -179,7 +179,7 @@ class CbClass
         if ( $property->isArray() )
         {
             $hasFunction = $this->createFunction('has'. $ucname, 'bool');
-            $hasFunction->addContent('return count($this->'. $propname .') > 1;');
+            $hasFunction->addContent('return count($this->'. $propname .') > 0;');
             
             $getFunction = $this->createFunction('get'. $ucname, $property->getTypeForDoc());
             $getFunction->addContent('return $this->'. $propname .';');

@@ -19,7 +19,7 @@ class SomeOperationResponse extends BaseResponse
      */
     public function hasSomeData()
     {
-        return count($this->someData) > 1;
+        return count($this->someData) > 0;
     }
 
     /**
